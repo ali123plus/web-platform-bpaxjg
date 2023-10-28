@@ -10,8 +10,14 @@ body {
 }
 
 
-div.container1, div.container2, div.container3 {
-  display: inline-flex;
+div.container1,
+div.container2,
+div.container3 {
+  display: flex;
+  flex-direction: row;
+  /* default or row-reverse
+  or column
+  or column-reverse*/
   background-color: rgb(189, 178, 178);
   padding: 8px;
   margin: 2px;
