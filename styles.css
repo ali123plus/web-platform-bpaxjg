@@ -11,12 +11,16 @@ body {
 
 div.container1 {
   display: flex;
-  flex-flow: row nowrap; 
-  /* default 'row nowrap'
-    or <flex-direction> <flex-wrap>
-    or <flex-direction>
-    or <flex-wrap> 
+
+  justify-content: flex-start;
+  /*  default 'flex-start'
+      or flex-end
+      or center
+      or space-around
+      or space-between
+      or space-evenly
   */
+
   background-color: rgb(189, 178, 178);
   padding: 8px;
   margin: 2px;
