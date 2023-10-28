@@ -11,10 +11,11 @@ body {
 
 div.container1 {
   display: flex;
-  flex-wrap: nowrap;
-  /* default 
-      or wrap
-      or wrap-reverse
+  flex-flow: row nowrap; 
+  /* default 'row nowrap'
+    or <flex-direction> <flex-wrap>
+    or <flex-direction>
+    or <flex-wrap> 
   */
   background-color: rgb(189, 178, 178);
   padding: 8px;
