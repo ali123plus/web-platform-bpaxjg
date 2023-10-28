@@ -26,8 +26,8 @@ div.item {
 
 .item1 {
   background-color: rgb(221, 85, 103);
-  order: 1;
-    /* default '0'
+  flex-grow: 1; 
+    /* default 
       or <number>
     */
 }
@@ -38,11 +38,12 @@ div.item {
 
 .item3 {
   background-color: rgb(133, 9, 133);
-  order: 2;
+  flex-grow: 2;
 }
 
 .item4 {
   background-color: rgb(23, 199, 67);
+  flex-grow: 2;
 }
 
 .item5 {
