@@ -11,7 +11,7 @@ body {
 
 div.container1 {
   display: flex;
-  flex-wrap: wrap-reverse;
+  flex-wrap: nowrap;
   /* default 
       or wrap
       or wrap-reverse
