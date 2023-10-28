@@ -12,18 +12,18 @@ body {
 div.container1 {
   display: flex;
 
-  justify-content: flex-start;
-  /*  default 'flex-start'
-      or flex-end
-      or center
-      or space-around
-      or space-between
-      or space-evenly
+  align-items: stretch;
+  /* default 'stretch'
+    or flex-start
+    or flex-end
+    or center
+    or baseline
   */
 
   background-color: rgb(189, 178, 178);
   padding: 8px;
   margin: 2px;
+  height: 180px;
 }
 
 div.item {
