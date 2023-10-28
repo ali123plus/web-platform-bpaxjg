@@ -11,16 +11,7 @@ body {
 
 div.container1 {
   display: flex;
-
   flex-wrap: wrap;
-  align-content: stretch; 
-  /* default 'stretch'
-    or flex-start
-    or flex-end
-    or center
-    or space-between
-    or space-around
-  */
 
   background-color: rgb(189, 178, 178);
   padding: 8px;
@@ -35,6 +26,10 @@ div.item {
 
 .item1 {
   background-color: rgb(221, 85, 103);
+  order: 1;
+    /* default '0'
+      or <number>
+    */
 }
 
 .item2 {
@@ -43,6 +38,7 @@ div.item {
 
 .item3 {
   background-color: rgb(133, 9, 133);
+  order: 2;
 }
 
 .item4 {
