@@ -12,18 +12,20 @@ body {
 div.container1 {
   display: flex;
 
-  align-items: stretch;
+  flex-wrap: wrap;
+  align-content: stretch; 
   /* default 'stretch'
     or flex-start
     or flex-end
     or center
-    or baseline
+    or space-between
+    or space-around
   */
 
   background-color: rgb(189, 178, 178);
   padding: 8px;
   margin: 2px;
-  height: 180px;
+  height: 380px;
 }
 
 div.item {
