@@ -15,42 +15,50 @@ div.container1 {
   background-color: rgb(189, 178, 178);
   padding: 8px;
   margin: 2px;
-  height: 300px;
+  height: 200px;
 }
 
 div.item {
   padding: 22px;
-  margin: 5px;
 }
 
 .item1 {
   background-color: rgb(221, 85, 103);
+
+  margin: auto;
+
+  /* margin: 2px;
+  margin-left: auto; */
+
+  /* margin: 2px;
+  margin-right: auto; */
+  
+  /* margin: 2px;
+  margin-top: auto; */
+
+  /* margin: 2px;
+  margin-bottom: auto; */
+
 }
 
 .item2 {
   background-color: rgb(118, 202, 174);
+  margin: 2px;
 }
 
 .item3 {
   background-color: rgb(133, 9, 133);
+  margin: 2px;
 }
 
-.item4 {
+/* .item4 {
   background-color: rgb(23, 199, 67);
-  align-self: baseline;
-    /* default 'stretch'
-        or flex-start
-        or flex-end
-        or center
-        or baseline
-    */
 }
 
 .item5 {
   background-color: rgb(211, 186, 208);
-  align-self: baseline;
 }
 
 .item6 {
   background-color: rgb(209, 226, 55);
-}
+} */
