@@ -20,33 +20,30 @@ div.container1 {
 div.item {
   padding: 22px;
   margin: 5px;
-  flex-basis: 250px;
-  /* default 'auto'
-      or <width>
-      or <length> (ex: 300px)
-      or <percentage> (ex: 25%)
-  */
 }
 
 .item1 {
   background-color: rgb(221, 85, 103);
-  flex-shrink: 1;
-    /* default '1'
-        or <number>
-    */
+  flex-basis: 100px;
 }
 
 .item2 {
   background-color: rgb(118, 202, 174);
-  flex-shrink: 2;
+  flex: 2 3;
+    /* default '0 1 auto'
+      or <flex-grow> <flex-shrink> <flex-basis>
+      or <flex-grow> (x 1 0%)
+      or <flex-basis> (1 1 x)
+      or <flex-grow> <flex-basis> (x 1 x)
+      or <flex-grow> <flex-shrink> (x x 0%)
+    */
 }
 
 .item3 {
   background-color: rgb(133, 9, 133);
-  flex-shrink: 3;
 }
 
-.item4 {
+/* .item4 {
   background-color: rgb(23, 199, 67);
 }
 
@@ -56,4 +53,4 @@ div.item {
 
 .item6 {
   background-color: rgb(209, 226, 55);
-}
+} */
