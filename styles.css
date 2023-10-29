@@ -11,39 +11,43 @@ body {
 
 div.container1 {
   display: flex;
-  flex-wrap: wrap;
 
   background-color: rgb(189, 178, 178);
   padding: 8px;
   margin: 2px;
-  height: 380px;
 }
 
 div.item {
   padding: 22px;
   margin: 5px;
+  flex-basis: 250px;
+  /* default 'auto'
+      or <width>
+      or <length> (ex: 300px)
+      or <percentage> (ex: 25%)
+  */
 }
 
 .item1 {
   background-color: rgb(221, 85, 103);
-  flex-grow: 1; 
-    /* default 
-      or <number>
+  flex-shrink: 1;
+    /* default '1'
+        or <number>
     */
 }
 
 .item2 {
   background-color: rgb(118, 202, 174);
+  flex-shrink: 2;
 }
 
 .item3 {
   background-color: rgb(133, 9, 133);
-  flex-grow: 2;
+  flex-shrink: 3;
 }
 
 .item4 {
   background-color: rgb(23, 199, 67);
-  flex-grow: 2;
 }
 
 .item5 {
