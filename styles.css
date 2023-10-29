@@ -15,6 +15,7 @@ div.container1 {
   background-color: rgb(189, 178, 178);
   padding: 8px;
   margin: 2px;
+  height: 300px;
 }
 
 div.item {
@@ -24,27 +25,25 @@ div.item {
 
 .item1 {
   background-color: rgb(221, 85, 103);
-  flex-basis: 100px;
 }
 
 .item2 {
   background-color: rgb(118, 202, 174);
-  flex: 2 3;
-    /* default '0 1 auto'
-      or <flex-grow> <flex-shrink> <flex-basis>
-      or <flex-grow> (x 1 0%)
-      or <flex-basis> (1 1 x)
-      or <flex-grow> <flex-basis> (x 1 x)
-      or <flex-grow> <flex-shrink> (x x 0%)
-    */
 }
 
 .item3 {
   background-color: rgb(133, 9, 133);
 }
 
-/* .item4 {
+.item4 {
   background-color: rgb(23, 199, 67);
+  align-self: center;
+    /* default 'stretch'
+        or flex-start
+        or flex-end
+        or center
+        or baseline
+    */
 }
 
 .item5 {
@@ -53,4 +52,4 @@ div.item {
 
 .item6 {
   background-color: rgb(209, 226, 55);
-} */
+}
