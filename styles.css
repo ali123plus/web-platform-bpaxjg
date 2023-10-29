@@ -37,7 +37,7 @@ div.item {
 
 .item4 {
   background-color: rgb(23, 199, 67);
-  align-self: center;
+  align-self: baseline;
     /* default 'stretch'
         or flex-start
         or flex-end
@@ -48,6 +48,7 @@ div.item {
 
 .item5 {
   background-color: rgb(211, 186, 208);
+  align-self: baseline;
 }
 
 .item6 {
